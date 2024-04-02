@@ -12,7 +12,8 @@
       "dom",
       "dom.iterable",
       "esnext"
-    ]
+    ],
+    "resolveJsonModule":true
   },
   "include": ["src/**/*"],
   "exclude": [
