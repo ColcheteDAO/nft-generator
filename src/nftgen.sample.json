@@ -1,0 +1,7 @@
+{
+  "folder":"amazingColection",
+  "image":"ipfs://bafybeieb3ouey6qlowh6xlirwejrwwz4eeg4y44ll6glyqwmqlvt3jfip4/images/social-card.png",
+  "description": "An sample of NFT collection",
+  "title": "sample Ape",
+  "attributes":[{"trait_type":"Mouth","value":"Grin"},{"trait_type":"Clothes","value":"Vietnam Jacket"},{"trait_type":"Background","value":"Orange"},{"trait_type":"Eyes","value":"Blue Beams"},{"trait_type":"Fur","value":"Robot"}]
+}
