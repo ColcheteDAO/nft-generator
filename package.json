@@ -2,7 +2,7 @@
   "name": "nftgen",
   "version": "0.0.1",
   "main": "index.js",
-  "repository": "git@github.com:ColcheteDAO/nft-generator.git",
+  "repository": "git@github.com:ColcheteDAO/nftgen.git",
   "author": "juancolchete <juanudkp@gmail.com>",
   "license": "MIT",
   "scripts": {
