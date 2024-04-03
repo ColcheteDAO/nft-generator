@@ -4,7 +4,14 @@ import nftgen from "./nftgen.json"
 const templates = { 
   single: (nftgenItem:any) =>{
     for(let i=0; i < nftgenItem.size; i++){
-      File.generateFile(`out/${nftgenItem.folder}/${i}`,JSON.stringify(nftgenItem,null,2)); 
+      const nftMetadata = {
+        description: nftgenItem.description, 
+        external_url: nftgenItem.external_url, 
+        image: nftgenItem.image, 
+        name: `${nftgenItem.title} #${i}`,
+        attributes: nftgenItem.attributes
+      }
+      File.generateFile(`out/${nftgenItem.folder}/${i}`,JSON.stringify(nftMetadata,null,2)); 
     }
   }
 }
