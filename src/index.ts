@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 import File from "./models/File"
-import nftgen from "./nftgen.json"
+import fs from "fs"
+const nftgen = JSON.parse(fs.readFileSync("nftgen.json").toString())  
 import { v4 } from "uuid"
 const templates = { 
   single: (nftgenItem:any) =>{
